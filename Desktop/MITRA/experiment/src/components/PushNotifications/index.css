@@ -1,0 +1,71 @@
+/* Basic styles for the PhotoEditor component */
+.photo-editor {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .fabric-canvas {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 100%; /* Full width of its container */
+    max-width: 100%; /* Prevents overflow */
+    height: auto;
+  }
+  
+  .canvas-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .canvas-controls {
+    margin-top: 10px;
+  }
+  
+  .add-image-button {
+    display: inline-block;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .hidden-input {
+    display: none;
+  }
+  
+  .delete-image-button {
+    display: inline-block;
+    padding: 10px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-canvas-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .fabric-canvas {
+      max-width: 90%;
+      height: auto;
+    }
+  
+    .add-canvas-button {
+      width: 100%;
+    }
+  }
+  
